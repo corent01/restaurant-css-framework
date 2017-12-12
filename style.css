@@ -1,0 +1,51 @@
+/*
+Error: Invalid CSS after "  color: ": expected expression (e.g. 1px, bold), was ";"
+        on line 71 of /home/user/restaurant-css-framework/style.scss
+
+66: }
+67: 
+68: .carousel-control.left,
+69: .carousel-control.right {
+70:   background-image: none;
+71:   color: ;
+72: }
+73: 
+74: .carousel-indicators li {
+75:   border-color: ;
+76: }
+
+Backtrace:
+/home/user/restaurant-css-framework/style.scss:71
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/script/lexer.rb:231:in `expected!'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:723:in `assert_expr'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:68:in `parse'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1134:in `sass_script'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:988:in `value!'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:796:in `block in try_declaration'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1254:in `rethrow'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:809:in `try_declaration'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:732:in `declaration_or_ruleset'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/usr/share/koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/usr/share/koala/bin/sass:22:in `load'
+/usr/share/koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"  color: \": expected expression (e.g. 1px, bold), was \";\"\A         on line 71 of /home/user/restaurant-css-framework/style.scss\A \A 66: }\A 67: \A 68: .carousel-control.left,\A 69: .carousel-control.right {\A 70:   background-image: none;\A 71:   color: ;\A 72: }\A 73: \A 74: .carousel-indicators li {\A 75:   border-color: ;\A 76: }"; }
